@@ -1,0 +1,13 @@
+{
+  "name": "tsWeb",
+  "version": "1.0.0",
+  "description": "A web app wiht TypeScript",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  }
+}
