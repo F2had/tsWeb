@@ -8,6 +8,12 @@
     "parcel": "latest"
   },
   "scripts": {
-    "start": "parcel index.html"
+    "start:db": "json-server -w db.json",
+    "start:parcel": "parcel index.html"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.24.0",
+    "json-server": "^0.17.0"
   }
 }

@@ -1,10 +1,8 @@
-import User from "./model/User";
+import axios from 'axios';
+import User from './model/User';
 
-const newUser = new User({name: 'AA', age: 20})
 
+const newUser = new User({name: 'BB', age: 25});
 
-console.log(newUser.get('name'));
-console.log(newUser.get('age'));
-newUser.set({name: 'BB',  age: 24 });
-console.log(newUser.get('name'));
-console.log(newUser.get('age'));
+const data = newUser.save();
+console.log(newUser)
